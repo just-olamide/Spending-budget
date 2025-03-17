@@ -20,7 +20,6 @@ submitButton.addEventListener('click', function() {
 
   // Validate input
   if (isNaN(expenseAmount) || expenseAmount <= 0) {
-    alert("Please enter a valid expense amount!");
     return;
   }
 
